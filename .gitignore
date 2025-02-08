@@ -1,0 +1,32 @@
+# Terraform files
+.terraform/
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform.lock.hcl
+terraform-provider-*
+*.exe
+
+# Credentials
+*.json
+configs/ssh/id_ed25519*
+!configs/ssh/.gitkeep
+
+# Local environment
+.env
+.envrc
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
